@@ -1,0 +1,14 @@
+thesis-env/
+thesis-env3/
+learnopencv/
+Caffe/
+
+week4/att_faces/
+
+week5/haar-cascade/
+week5/cascade_training/
+
+saliency/model/
+saliency/data/
+
+*.mp4
