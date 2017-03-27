@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 import numpy as np
-import sys
-sys.path.insert(0, '../Caffe/distribute/python')
 import caffe
 import cv2
 
@@ -40,8 +38,8 @@ def processImage(net,filename):
     return map_final
 
 net = initNet('./model', -1)
-filename = './francis/fran4.jpg'
+filename = './images/xiwei.jpg'
 outputMap = processImage(net, filename)
-outputFilename = './francis/fran4_output.png'
+outputFilename = './images/images_output.png'
 
 cv2.imwrite(outputFilename, outputMap)
