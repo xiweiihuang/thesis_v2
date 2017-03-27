@@ -1,5 +1,7 @@
 thesis-env/
+thesis-env2/
 thesis-env3/
+
 learnopencv/
 Caffe/
 
@@ -14,3 +16,4 @@ saliency/data/
 *.mp4
 
 .DS_Store
+
