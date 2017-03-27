@@ -12,3 +12,5 @@ saliency/model/
 saliency/data/
 
 *.mp4
+
+.DS_Store
