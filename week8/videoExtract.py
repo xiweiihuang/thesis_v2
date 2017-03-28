@@ -67,6 +67,7 @@ def processVideo():
 		if video1FrameNum == video1FrameCount:
 			print("Video 1 finished")
 			break
+# comment these out only when using webcam
 #		if video2FrameNum == video2FrameCount:
 #			print("Video 2 finished")
 #			break
@@ -93,6 +94,10 @@ def processVideo():
 	video2.release()
 	cv2.destroyAllWindows()
 
+# GPU
+# net = initNet('../saliency/model', 0)
 
+# CPU
 net = initNet('../saliency/model', -1)
+
 processVideo()
