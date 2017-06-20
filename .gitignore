@@ -5,13 +5,19 @@ thesis-env3/
 learnopencv/
 Caffe/
 
+imgs/
+
 week4/att_faces/
 
 week5/haar-cascade/
 week5/cascade_training/
 
+week12/slides/
+
 saliency/model/
 saliency/data/
+saliency/images/
+saliency/frames/
 
 *.mp4
 *.tiff
